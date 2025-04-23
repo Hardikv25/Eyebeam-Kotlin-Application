@@ -1,0 +1,57 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/white">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/cust_num"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:layout_weight="0.8"
+                android:text="1"
+                android:background="@drawable/txtborder"
+                android:textColor="@color/black"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/cust_email"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:paddingTop="10dp"
+                android:layout_weight="2.6"
+                android:textColor="@color/black"
+                android:background="@drawable/txtborder"
+                android:text="abc@gmail.com"
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/custdel"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/txtborder"
+                app:srcCompat="@drawable/round_delete_24"
+                app:tint="#ff0000" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.cardview.widget.CardView>

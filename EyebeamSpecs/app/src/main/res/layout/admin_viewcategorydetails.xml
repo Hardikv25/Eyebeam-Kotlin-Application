@@ -1,0 +1,47 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/normalborder"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/cateimg"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/user" />
+
+        <TextView
+            android:id="@+id/catetitle"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:text="Mens"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/catedelete"
+            android:layout_width="25dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/round_delete_24"
+            app:tint="#ff0000" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

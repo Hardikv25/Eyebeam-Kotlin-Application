@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="subtotal" type="id" />
+    <item name="tax" type="id" />
+    <item name="payment_method_placeholder" type="id" />
+    <item name="payment_method_title" type="id" />
+    <item name="payment_instruction" type="id" />
+</resources>

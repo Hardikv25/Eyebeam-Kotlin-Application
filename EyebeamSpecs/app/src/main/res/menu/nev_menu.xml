@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/round_home_24"
+            android:title="Home"
+            ></item>
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@drawable/btn_1"
+            android:title="Explore"
+            ></item>
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/btn_2"
+            android:title="Cart"
+            ></item>
+        <item
+            android:id="@+id/nav_wishlist"
+            android:icon="@drawable/btn_3"
+            android:title="Wishlist"
+            ></item>
+        <item
+            android:id="@+id/nav_myorder"
+            android:icon="@drawable/btn_4"
+            android:title="MyOrder"
+            ></item>
+<!--        <item-->
+<!--            android:id="@+id/nav_notification"-->
+<!--            android:icon="@drawable/bell"-->
+<!--            android:title="Notification"-->
+<!--            ></item>-->
+<!--        <item-->
+<!--            android:id="@+id/nav_about"-->
+<!--            android:icon="@drawable/bell"-->
+<!--            android:title="AboutUs"-->
+<!--            ></item>-->
+
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/round_logout_24"
+                android:title="Logout"></item>
+        </menu>
+    </item>
+
+
+
+</menu>

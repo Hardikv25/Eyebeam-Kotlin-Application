@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "893517737273",
+    "firebase_url": "https://eyebeammyapp-default-rtdb.firebaseio.com",
+    "project_id": "eyebeammyapp",
+    "storage_bucket": "eyebeammyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893517737273:android:070fa103b7d782b66bcce8",
+        "android_client_info": {
+          "package_name": "com.example.Eyebeam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBty_mxG-q4FvjnVhu_1L09D9RbCmLDBPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893517737273:android:1fadac38bf7091a36bcce8",
+        "android_client_info": {
+          "package_name": "com.example.eyebeam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBty_mxG-q4FvjnVhu_1L09D9RbCmLDBPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893517737273:android:98e21bf8d080d5f96bcce8",
+        "android_client_info": {
+          "package_name": "com.example.onlineclothing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBty_mxG-q4FvjnVhu_1L09D9RbCmLDBPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

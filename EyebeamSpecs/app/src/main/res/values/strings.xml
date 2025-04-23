@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Eyebeam</string>
+    <string name="getstart">Get Started</string>
+    <string name="logingoogle">Log In with Google</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="country_prompt">Select Your Country</string>
+    <string name="contact_phone_number_required">Contact Phone Number</string>
+    <string name="contact_name_required">Contact Name</string>
+    <string name="give_your_address">Give Your Address</string>
+    <string name="street_required">Street</string>
+    <string name="city_required">City</string>
+    <string name="pincode_zip_required">Pincode/Zip</string>
+    <string name="state_required">State</string>
+    <string name="save_address">Save Address</string>
+</resources>
